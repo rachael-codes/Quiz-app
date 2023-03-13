@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+body{
+    color: #050222;
+}
+.container{
+    background: linear-gradient(90deg, rgb(
+        0, 0, 0), rgb(255, 232, 22) 45%, rgb(255, 56, 195), rgb(0, 0, 0)100%);
+        padding: 10%;
+}
+#highScoresList{
+    list-style-type: none;
+    margin-bottom: 4em;
+    font-family: "Nova Square", cursive;
+}
+#highScores h1{
+    font-family: "Nova Square", cursive;
+    margin-bottom: 7%;
+    font-size: 4em;
+}
+.high-score{
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    gap: 5%;
+    font-family: "Nova Square", cursive;
+}
+#highScores a{
+    text-decoration: none;
+    font-size: 1.5em;
+    background: #0a0a0a;
+    color: white;
+    font-family: "Nova Square",cursive;
+    padding: 0.2em 0.4em;
+    border-radius: 5px;
+}
+#highScores a .fa-home{
+    font-size: 1em;
+}
+@media screen and (min-width: 280px) and (max-width: 653px) {
+    #highScores h1{
+        font-size: 2em;
+    }
+    .high-score{
+        font-size: 1em;
+    }
+}

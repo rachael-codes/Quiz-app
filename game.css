@@ -1,0 +1,122 @@
+body{
+    color: #fff;
+}
+/* .container{
+    background: #0ae71c;
+} */
+section .container{
+    background: none;
+    box-shadow: none;
+}
+#home h1{
+    display: none;
+}
+#home a{
+    display: none;
+}
+#game{
+    background: #1d1d1a;
+    padding: 3%;
+    border-radius: 3px;
+}
+.choice-container{
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 150px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, rgb(228, 38, 218)10%, rgb(255, 240, 37)50%);
+    /* font-size: 2rem; */
+    min-width: 50rem;
+}
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4em 1.4em 0 rgb(50, 65, 199);
+    transform: scale(1.02);
+    transition: transform 100ms;
+}
+.choice-prefix{
+    padding: 2em 2.5em;
+    color: #fff;
+}
+.choice-text{
+    padding: 2rem;
+    width: 100%;
+    color: #1d1d1a;
+}
+h1#question{
+    width: 100%;
+    margin: 2% 0;
+}
+.correct{
+    background: #0ae71c;
+}
+.incorrect{
+    background: #ff0707;
+}
+#hud{
+    display: flex;
+    justify-content: space-between;
+}
+.hud-prefix{
+    text-align: center;
+    font-size: 2rem;
+}
+.hud-main-text{
+    text-align: center;
+}
+#progressBar{
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid #490440;
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+#progressBarFull{
+    height: 100%;
+    background: #6170f8;
+    width: 0%;
+}
+
+@media screen and (max-width: 768px){
+    #game{
+        max-width: 350px;
+        height: 550px;
+    }
+    .choice-container{
+        min-width: 18em;
+        height: 3em;
+        justify-content: center;
+        align-items: center;
+        /* margin-right: 4%; */
+    }
+    #hud{
+        justify-content: center;
+    }
+    .hud-prefix{
+        font-size: 1em;
+    }
+    #progressBar{
+        width: 10em;
+        height: 1.5em;
+        margin: 2em 0;
+    }
+    .choice-text{
+        padding: 1em;
+    }
+    h1#question{
+        font-size: 1.5em;
+        margin-bottom: 20%;
+    }
+    .choice-prefix{
+        padding: 1em 1.5em;
+    }
+}
+@media screen and (min-width: 280px) and (max-width: 653px){
+    #game{
+    max-width: 300px;
+    }
+    .choice-container{
+        min-width: 15em;
+    }
+}

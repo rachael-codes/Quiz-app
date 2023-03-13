@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fc00b0;
+}
+:root{
+    font-family: cursive;
+}
+.container{
+    display: block;
+    /* width: 500px; */
+}
+.container input{
+    margin: 5% auto;
+    height: 2em;
+    width: 25em;
+}
+.container form {
+    display: grid;
+}
+.container form button{
+    font-size: 2em;
+    margin-bottom: 5%;
+    max-width: 20em;
+    font-size: 1.5em;
+    color: #000000;
+    background: #fff;
+    padding: 0.3em;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Nova Square", cursive;
+    margin: 0 auto;
+}
+.container a{
+    font-size: 1.5em;
+    color: #ffffff;
+    /* background: #fff; */
+    padding: 0.5em;
+    text-transform: uppercase;
+    list-style-type: none;
+    text-align: center;
+    font-family: "Nova Square", cursive;
+    /* display: flex; */
+    margin: 5% auto;
+}
+#end{
+    background: linear-gradient(90deg, rgb(
+        0, 0, 0), rgb(255, 232, 22) 45%, rgb(255, 56, 195), rgb(0, 0, 0)100%);
+        padding: 10%;
+}
+#end h1{
+    text-align: 
+    center;
+    margin-bottom: 5%;
+}
